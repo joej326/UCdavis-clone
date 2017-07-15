@@ -1,0 +1,76 @@
+.link{
+  border: solid #e5e9ef 0.35vw;
+  height: 8vw;
+  width: 8vw;
+  border-radius: 50%;
+  position: relative;
+}
+
+.link img{
+  width: 6vw;
+  left: 1vw;
+  top: 1vw;
+  position: absolute;
+  transition: width 0.5s, transform 0.5s;
+}
+.link:hover img{
+  width: 7vw;
+  transform: translate(-8%,-5%);
+}
+.link-main:nth-child(5):hover img{
+  width: 5vw;
+  transform: translate(-4%,-5%);
+}
+.link-main:nth-child(1) img{
+  left: 0.8vw;
+}
+.link-main:nth-child(2) img{
+  top: 1.5vw;
+}
+.link-main:nth-child(3) img{
+  left: 0.85vw;
+}
+.link-main:nth-child(5) img{
+  transition: width 0.5s, transform 0.5s;
+  width: 4.5vw;
+  left: 1.5vw;
+}
+.link-main:nth-child(6) img{
+  top: 1.3vw;
+}
+.ribbon{
+  transition: border-color 0.5s;
+}
+.ribbon:hover{
+  border-color: #172A53;
+}
+.hat{
+  transition: border-color 0.5s;
+}
+.hat:hover{
+  border-color: #018DA9;
+}
+.dollar{
+  transition: border-color 0.5s;
+}
+.dollar:hover{
+  border-color: #78BD43;
+}
+.calendar{
+  transition: border-color 0.5s;
+}
+.calendar:hover{
+  border-color: #DEB209;
+}
+.walking{
+  transition: border-color 0.5s;
+}
+.walking:hover{
+  border-color: #EB8B23;
+}
+.check{
+  transition: border-color 0.5s;
+}
+.check:hover{
+  border-color: #C4197F;
+}

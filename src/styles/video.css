@@ -1,0 +1,13 @@
+.video-main{
+  position: relative;
+
+}
+.the-video{
+  position: absolute;
+  width: 100%;
+  height: 38vw;
+  top: -15vw;
+}
+.space-creator{
+  height: 24vw;
+}

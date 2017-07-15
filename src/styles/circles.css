@@ -1,0 +1,56 @@
+.circles-main{
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0vw;
+  right: 2.5vw
+}
+.circles-main div{
+  margin: 0vw 5vw 0vw 6vw;
+  text-align: center;
+}
+.circles-main div img{
+  position: absolute;
+  width: 11vw;
+  transition: width, 0.5s;
+  transform: translate(-50%,-50%);
+}
+.circles-main div img:hover{
+  width: 13vw;
+}
+.paw-circle img{
+  top: -12vw;
+  left: -20.5vw
+}
+.paw-circle p{
+  position: absolute;
+  font-weight: bold;
+  font-size: 1.3vw;
+  color: #172A53;
+  top: -6.5vw;
+  left: -28vw;
+}
+.ten-circle img{
+  top: -12vw;
+  left: 1.45vw;
+}
+.ten-circle p{
+  position: absolute;
+  font-weight: bold;
+  font-size: 1.3vw;
+  color: #172A53;
+  top: -6.5vw;
+  left: -7vw;
+}
+.one-circle img{
+  top: -12vw;
+  left: 24.45vw
+}
+.one-circle p{
+  position: absolute;
+  font-weight: bold;
+  font-size: 1.3vw;
+  color: #172A53;
+  top: -6.5vw;
+  left: 17.75vw;
+}

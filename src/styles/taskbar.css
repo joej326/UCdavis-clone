@@ -1,0 +1,119 @@
+.taskbar-main{
+  display: flex;
+  justify-content: space-between;
+  /*align-items: center;*/
+}
+.taskbar-list{
+  position: relative;
+  top: 0.5vw;
+  display: flex;
+  overflow: hidden;
+  justify-content: flex-start;
+  /*margin: 0vw 0vw 0vw 4vw;*/
+}
+.taskbar-list div{
+  /*margin: 0vw 2vw 0vw 4vw; */
+  position: relative;
+  /* bottom: -12vw; */
+}
+
+.taskbar-list div:nth-child(1){
+  margin-left: 4vw;
+}
+.taskbar-list ul:nth-child(3) li:nth-child(5){
+  padding-bottom: 1.5vw;
+}
+.taskbar-list ul:nth-child(4) li:nth-child(5){
+  padding-bottom: 1.5vw;
+}
+.add-padding{
+  padding-bottom: 1.35vw !important;
+}
+.taskbar-list ul:nth-child(1) li:nth-child(6){
+  padding-bottom: 1.5vw;
+}
+.taskbar-list ul:nth-child(2) li:nth-child(6){
+  padding-bottom: 1.5vw;
+}
+.taskbar-list ul:nth-child(5) li:nth-child(6){
+  padding-bottom: 1.5vw;
+}
+.taskbar-list h2{
+  padding: 1.5vw 0vw 0vw 2vw;
+  width: 10.5vw;
+  height: 3vw;
+  font-weight: bolder;
+  color: #002855;
+  font-size: 1.25vw;
+  margin: 0vw 0vw 2vw 0vw;
+}
+.taskbar-list h2:hover{
+  background: #DAAA00;
+}
+.about-list{
+  margin: 0vw 0vw 0vw 0vw;
+}
+.about-list:hover li{
+  background: #f9ecbf;
+}
+.admissions-list:hover li{
+  background: #f9ecbf;
+}
+.academics-list:hover li{
+  background: #f9ecbf;
+}
+.research-list:hover li{
+  background: #f9ecbf;
+}
+.campus-list:hover li{
+  background: #f9ecbf;
+}
+.news-list:hover li{
+  background: #f9ecbf;
+}
+
+
+.taskbar-list ul{
+  padding: 0vw 0vw 0vw 0vw;
+  position: relative;
+  bottom: 2.7vw;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.taskbar-list ul li{
+  background: white;
+  position: relative;
+  bottom: 20vw;
+  padding: 0.5vw 1.5vw 0.5vw 2vw;
+  font-size: 1vw;
+  font-weight: bolder;
+  color: #002855;
+}
+.taskbar-list ul li:hover{
+  background: #DAAA00;
+}
+
+.search-div{
+  margin: 0vw 4vw 0vw 0vw;
+  color: #002855;
+  display: flex;
+  align-items: flex-start;
+}
+.search-div p{
+  font-size: 1.5vw;
+  border: solid #cfcfcf 0.3vw;
+  padding: 1vw 1.2vw 1vw 1.2vw;
+  border-radius: 17vw;
+  margin: 0.5vw 0vw 0vw 0vw;
+  position: relative;
+  /*animation: border-color-orange 1s linear backwards;*/
+  transition: border-color 0.5s;
+}
+.search-div p:hover{
+  border-color: #DAAA00;
+}
+
+.slideout-menu{
+  position: relative;;
+}

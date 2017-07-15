@@ -1,0 +1,59 @@
+.header-main{
+  background-image: url('http://i.imgur.com/en9mz2i.png');
+  background-size: cover;
+  padding: 1vw 0vw 1vw 0vw;
+  position: sticky;
+  top: 0;
+  z-index: 2000;
+}
+.flex-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-header svg{
+  position: relative;
+  margin: 0vw 0vw 0vw 4vw;
+  width: 21vw;
+}
+
+.flex-header div{
+  width: 9vw;
+  margin: 1vw 4vw 1vw 0vw;
+  padding: 0vw 1vw 0vw 2vw;
+  transition: width 0.5s;
+
+  clip-path: polygon(
+   10% 0%, /* left top */
+   100% 0, /* right top */
+   100% 100%, /* right bottom */
+   0 100% /* left bottom */
+ );
+
+}
+
+.flex-header div:hover{
+  width: 10vw;
+}
+/*.flex-header div p:hover{
+  left: 1vw;
+}*/
+
+
+.quick-links{
+  position: relative;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.quick-links img{
+  width: 0.8vw;
+  transform: scale(-1, 1);
+}
+.quick-links p{
+  position: relative;
+  right: 0vw;
+  font-size: 1.3vw;
+  margin: 1vw 0vw 1vw 0vw;
+}
