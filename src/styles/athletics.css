@@ -1,0 +1,40 @@
+.athletics-main{
+  width: 25vw;
+  background: white;
+  position: absolute;
+  left: 5vw;
+  padding-bottom: 2vw;
+  top: 132vw;
+}
+.balloons{
+  position: relative;
+  margin-top: 2vw;
+  left: 1.5vw;
+  width: 22vw;
+}
+.mustang-logo{
+  width: 20vw;
+}
+.football{
+  position: relative;
+  left: 1.5vw;
+}
+.football h5{
+  font-size: 1.5vw;
+  margin: 0vw;
+}
+.football p{
+  font-size: 1.2vw;
+  margin-top: 0vw;
+}
+#arrows{
+  position: relative;
+  bottom: 1.66vw;
+  width: 0.7vw;
+}
+
+.see-all-div{
+  position: relative;
+  font-size: 1.3vw;
+  right: 8.6vw;
+}

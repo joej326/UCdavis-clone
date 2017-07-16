@@ -1,0 +1,77 @@
+.image-expand-main{
+  height: 21vw;
+  position: relative;
+  background: white;
+  overflow: hidden;
+  width: 27vw;
+}
+.expanding-img{
+  transform: translate(-50%,-50%);
+  width: 27.1vw;
+  transition: width 0.5s;
+  position: absolute;
+  left: 13.5vw;
+  top: 9vw;
+}
+.expanding-img:hover{
+  width: 29vw;
+}
+.slanted-div{
+  width: 27vw;
+  position: relative;
+  bottom: 6.5vw;
+  z-index: 500;
+  background: white;
+  height: 16vw;
+  clip-path: polygon(
+   0% 0%, /* left top */
+   100% 20%, /* right top */
+   100% 100%, /* right bottom */
+   0 100% /* left bottom */
+ );
+}
+.expanding-circle{
+  z-index: 1000;
+  width: 6.75vw;
+  height: 5.4vw;
+  position: absolute;
+  color: white;
+  font-size: 1.7vw;
+  padding: 1vw 0.4vw 1vw 0.4vw;
+  font-weight: bold;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  background: #ED8B00;
+}
+
+.expanding-circle p{
+  position: absolute;
+  left: 2vw;
+  text-align: center;
+  top: 0vw;
+  /*transition: transform 0.5s;*/
+}
+/*.image-expand-main:hover p{
+  transform: translate(9%,13%);
+}*/
+/*.expanding-circle:hover{
+  width: 7.75vw;
+  height: 6.2vw;
+}*/
+.orange{
+  right: 37vw;
+  top: 156vw;
+  background: #ED8B00;
+}
+.pink{
+  right: 5vw;
+  top: 156vw;
+  background: #C6007E;
+}
+.slant-words p{
+  color: #002855;
+  text-align: center;
+  padding: 5vw 2vw 3vw 2vw;
+  font-weight: bold;
+  font-size: 1.2vw;
+}

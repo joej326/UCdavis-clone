@@ -1,0 +1,19 @@
+.bottom-half-main{
+  background: #E5E9EF;
+  height: 120vw;
+}
+.picture-uc-davis-img{
+  position: relative;
+  left: 35vw;
+  width: 60vw;
+}
+.image-expand-flex{
+  margin-left: 32.5vw;
+  margin-top: 2.5vw;
+  width: 64.7vw;
+  display: flex;
+  justify-content: space-around;
+}
+hr{
+  width: 87%;
+}

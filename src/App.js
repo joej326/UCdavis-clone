@@ -9,6 +9,7 @@ import SlideOut from './containers/SlideOut';
 import Video from './containers/Video';
 import LinksContainer from './containers/LinksContainer';
 import Events from './containers/Events';
+import BottomHalf from './containers/BottomHalf';
 
 class App extends Component {
 
@@ -49,6 +50,7 @@ componentDidMount(){
         <Video />
         <LinksContainer />
         <Events />
+        <BottomHalf />
       </div>
     );
   }
