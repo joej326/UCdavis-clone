@@ -9,24 +9,24 @@ import './../styles/imageExpand.css';
 
 export default class ImageExpand extends Component{
 
-componentDidMount(){
-  $('.workout-img').on('mouseenter', function(){
-    $('.orange').stop().animate({width: '7.75vw',height: '6.2vw',right: '36vw'});
-    $('.orange p').stop().animate({right: '2.3vw',top:'0.5vw'});
-  });
-  $('.workout-img').on('mouseleave', function(){
-    $('.orange').stop().animate({width: '6.75vw',height: '5.4vw',right: '37vw'});
-    $('.orange p').stop().animate({right: '2.3vw',top:'0.1vw'});
-  })
-  $('.beer-img').on('mouseenter', function(){
-    $('.pink').stop().animate({width: '7.75vw',height: '6.2vw',right: '4vw'});
-    $('.pink p').stop().animate({right: '2.3vw',top:'0.5vw'});
-  });
-  $('.beer-img').on('mouseleave', function(){
-    $('.pink').stop().animate({width: '6.75vw',height: '5.4vw',right: '5vw'});
-    $('.pink p').stop().animate({left: '2vw',top:'0vw'});
-  })
-}
+// componentDidMount(){
+//   $('.workout-img').on('mouseenter', function(){
+//     $('.orange').stop().animate({width: '7.75vw',height: '6.2vw',right: '36vw'});
+//     $('.orange p').stop().animate({right: '2.3vw',top:'0.5vw'});
+//   });
+//   $('.workout-img').on('mouseleave', function(){
+//     $('.orange').stop().animate({width: '6.75vw',height: '5.4vw',right: '37vw'});
+//     $('.orange p').stop().animate({right: '2.3vw',top:'0.1vw'});
+//   })
+//   $('.beer-img').on('mouseenter', function(){
+//     $('.pink').stop().animate({width: '7.75vw',height: '6.2vw',right: '4vw'});
+//     $('.pink p').stop().animate({right: '2.3vw',top:'0.5vw'});
+//   });
+//   $('.beer-img').on('mouseleave', function(){
+//     $('.pink').stop().animate({width: '6.75vw',height: '5.4vw',right: '5vw'});
+//     $('.pink p').stop().animate({left: '2vw',top:'0vw'});
+//   })
+// }
 
 
 
