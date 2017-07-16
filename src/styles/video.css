@@ -11,3 +11,29 @@
 .space-creator{
   height: 24vw;
 }
+@media(max-width: 513px){
+  .the-video{
+    top: -18.5vw;
+  }
+}
+
+@media(max-width: 1125px){
+  .the-video{
+    top: -16.5vw !important;
+  }
+}
+@media(max-width: 637px){
+  .slanted-div{
+    bottom: 9.5vw !important;
+  }
+}
+@media(max-width: 543px){
+  .the-video{
+    top: -18.5vw !important;
+  }
+}
+@media(max-width: 423px){
+  .the-video{
+    top: -20.5vw !important;
+  }
+}
